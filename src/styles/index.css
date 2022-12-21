@@ -101,6 +101,11 @@ body {
 
   color: var(--color-4);
 }
+@media(min-width:750px){
+  .input_evento{
+    margin-left:40px;
+  }
+}
 .icone_pesquisar {
   display: flex;
   align-items: center;
