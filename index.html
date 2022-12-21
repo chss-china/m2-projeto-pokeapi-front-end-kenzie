@@ -6,38 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Consumindo PokeAPI</title>
-    <link rel="stylesheet" href="./src/styles/index.css"/>
-    <link rel="stylesheet" href="./src/styles/globalstyles.css"/>
-    
-    <script src="./src/scripts/requests.js"defer></script>
-    <script src="./src/scripts/index.js"defer></script>
-  </head>
+    <link rel="stylesheet" href="./src/styles/index.css" />
+    <link rel="stylesheet" href="./src/styles/globalstyles.css" />
 
+    <script src="./src/scripts/requests.js" defer></script>
+    <script src="./src/scripts/index.js" defer></script>
+  </head>
+  <!--amanhã perguntar por que quando carrego a pagina ao inves de mostrar todos pokemons, tá mostrando um so
+, e tenho que carregar varias vezes para mostrar todos-->
   <body>
     <header>
       <div class="pai_input_imgpoke1">
-      <div class="pai_input_imgpoke">
-      <img class="pokeapi_img"src="./src/assets/pokeapi.png"/>
-        
-    <div class="pai_input_label">
-    
-    <input class="input_evento" type="text" id="pesquisa" placeholder="Pesquisar por...">
-  <button class="span_icone_pesquisar"> <img class="icone_pesquisar"src="./src/assets/search-icon.png" alt=""> </button> 
-  </div>
-  </div>
-</div>
-    
-    
-  </header>
-  <main>
-    <ul>
-      <h2 class="titulo_lista_pokemon">Lista de Pokémon</h2>
-      <li class="li_pokemons">
-       
-        
-        <h2 id="loading">Carregando</h2>
-      </li>
-    </ul>
-  </main>
+        <div class="pai_input_imgpoke">
+          <img class="pokeapi_img" src="./src/assets/pokeapi.png" />
+
+          <div class="pai_input_label">
+            <input
+              class="input_evento"
+              type="text"
+              id="pesquisa"
+              placeholder="Pesquisar por..."
+            />
+            <button class="span_icone_pesquisar">
+              <img
+                class="icone_pesquisar"
+                src="./src/assets/search-icon.png"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <ul>
+        <h2 class="titulo_lista_pokemon">Lista de Pokémon</h2>
+        <li class="li_pokemons">
+          <h2 id="loading">Carregando...</h2>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
