@@ -1,6 +1,10 @@
 /* Monte sua estilização aqui */
+header{
+  margin:0 auto;
+}
 #loading {
   font-family: var(--font-site);
+  font-style: normal;
   font-weight: var(--espessura-textos);
   font-size: 20px;
   line-height: 26px;
@@ -34,14 +38,15 @@ body {
   justify-content: center;
   width: 100%;
   max-width: 100%;
-  margin-left: 100px;
+  margin-top:120px;
 }
 @media (min-width: 750px) {
   .pokeapi_img {
     width: 125px;
     height: 50.1px;
-    margin-left: 300px;
-    margin-top: 30px;
+    margin:0 auto;
+    margin-top:100px;
+    
   }
 }
 .pai_input_imgpoke {
@@ -53,6 +58,7 @@ body {
   height: 50.1px;
   margin-left: 90px;
   margin-top: 70px;
+  margin:0 auto;
 }
 @media (min-width: 750px) {
   .pai_input_imgpoke {
@@ -61,6 +67,7 @@ body {
     align-items: center;
     flex-direction: row;
     margin-left: 400px;
+    margin:0 auto;
   }
 }
 .pai_input_label {
@@ -74,6 +81,7 @@ body {
     margin-left: 340px;
     display: flex;
     flex-direction: row;
+    margin-top: 100px;
   }
 }
 .input_evento {
@@ -87,6 +95,8 @@ body {
   font-weight: var(--espessura-textos);
   font-size: 16px;
   line-height: 21px;
+  width: 150px;
+  margin-left: -110px;
   /* identical to box height */
 
   color: var(--color-4);
@@ -116,12 +126,17 @@ body {
   align-items: center;
   justify-content: center;
   font-family: var(--font-site);
+  font-style: normal;
   font-weight: var(--espessura-textos);
   margin-bottom: 35px;
   color: var(--color-2);
+  margin: 0 auto;
 }
 @media (min-width: 750px) {
   .titulo_lista_pokemon {
+    font-family: 'IBM Plex Sans';
+    font-family: var(--font-site);
+    font-style: normal;
     width: 194px;
     height: 31px;
     font-size: 24px;
@@ -133,6 +148,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-left: 520px;
+    margin:0 auto;
   }
 }
 .li_pokemons {
@@ -160,6 +176,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
+    
   }
 }
 .img_pokemon {
@@ -168,6 +185,7 @@ body {
 }
 .nomes_pokemon {
   font-family: var(--font-site);
+  font-style: normal;
   font-weight: var(--espessura-textos);
   font-size: 20px;
   line-height: 26px;
@@ -179,4 +197,5 @@ body {
   height: 200px;
   width: 200px;
   margin-left: 50px;
+  margin:0 auto;
 }
