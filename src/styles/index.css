@@ -104,7 +104,8 @@ body {
 }
 @media(min-width:750px){
   .input_evento{
-    margin-left:40px;
+    margin-left:-10px;
+    width:233px;
   }
 }
 .icone_pesquisar {
