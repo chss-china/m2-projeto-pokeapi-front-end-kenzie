@@ -9,6 +9,7 @@ header{
   font-size: 20px;
   line-height: 26px;
   margin-right:25px;
+  margin:0 auto;
   /* identical to box height */
 
   color: var(--cor-1);
