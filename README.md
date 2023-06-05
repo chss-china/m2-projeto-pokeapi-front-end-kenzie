@@ -1,6 +1,6 @@
 
 
-# Projeto-PokeAPi
+# Projeto PokeAPi
 
 ## Descrição
 Existem muitos tipos de Pokémon, e o objetivo deste site é fornecer uma barra de pesquisa que permita a pesquisa de 
